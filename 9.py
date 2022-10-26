@@ -7,6 +7,7 @@ def foo(t):
             temp_mx += 1
         else:
             mx = max(temp_mx, mx)
+            mx_temp = 0
 
         last = i
 
